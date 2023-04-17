@@ -787,6 +787,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
+  margin-top: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -847,6 +848,9 @@ body {
 .modal-form-submit:hover,
 .modal-form-submit:focus {
   background-color: var(--accent-color);
+}
+.modal-form-link {
+  color: var(--secondary-accent-color);
 }
 
 /*-------------------- /MODAL FORM ----------------- */
